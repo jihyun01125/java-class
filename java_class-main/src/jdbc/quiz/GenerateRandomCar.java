@@ -35,7 +35,7 @@ public class GenerateRandomCar {
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");		
 			Connection conn = DriverManager.getConnection(
-					"jdbc:oracle:thin:@localhost:1521/XEPDB1",
+					"jdbc:oracle:thin:@localhost:1522/XEPDB1",
 					"hr",
 					"1234"
 			);
